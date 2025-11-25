@@ -1,0 +1,171 @@
+body
+{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+.header
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 200px;
+    background-color: #1F2937;
+    color: white;
+}
+.header .logo
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 24px;
+}
+.right-links
+{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    color: grey;
+}
+.bloc1
+{
+    display: flex;
+    padding-top: 75px;
+    padding-bottom: 140px;
+    padding-left: 200px;
+    padding-right: 200px;
+    background-color: #1F2937;
+    justify-content: space-between;
+}
+.bloc1 .left-part
+{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    justify-content: space-between;
+}
+.bloc1 img
+{
+    width: 450px;
+    height: 220px;
+    border-radius: 10px;
+}
+.title
+{
+    font-size: 48px;
+    font-weight: 900;
+    color: white;
+}
+.bloc1 .left-part .text
+{
+    color: white;
+    font-size: 18px;
+}
+.bloc1 button{
+    background-color:#3882F6 ;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border:none;
+    width: 110px;
+    font-weight: bold;
+}
+.bloc2
+{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 250px;
+    padding-bottom: 100px;
+}
+.bloc2 .titre
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    padding-bottom: 50px;
+}
+.container
+{
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+.photo
+{
+    border: 3px solid #3882F6;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.info
+{
+    width: 150px;
+    text-align: center;
+    color: grey;
+}
+.bloc3
+{
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 100px 365px;
+}
+.bloc3 .text
+{
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
+}
+.bloc3 .nom
+{
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: auto;
+}
+.bloc4
+{
+    display: flex;
+    margin: 50px 180px;
+    background-color: #3882F6;
+    border-radius: 5px;
+    padding: 40px 100px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.bloc4 .left-part
+{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.upper
+{
+    font-size: 24px;
+    font-weight: bold;
+}
+.bloc4 button
+{
+    background-color: #3882F6;
+    border-radius: 8px;
+    color: white;
+    padding: 10px 20px;
+    width: 110px;
+    border : 2px solid white;
+    font-weight: bold;
+}
+.footer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
